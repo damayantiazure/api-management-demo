@@ -3,8 +3,8 @@ using 'main.bicep'
 //var appname = readEnvironmentVariable('APP_NAME')
 //var appEnv = readEnvironmentVariable('APP_ENV')
 
-var appname = 'demoapp-ca-1'
-var appEnv = 'demoapp-env'
+var appname = 'containerapp-demo-api'
+var appEnv = 'Containerapp-demo-env'
 
 param uamiName = '${appname}-uami-${appEnv}'
 param containerRegistryName = '${appname}contregistry${appEnv}'
